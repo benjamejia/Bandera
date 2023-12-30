@@ -1,0 +1,58 @@
+#titulo{
+    color: aqua;
+}
+
+.contenedor-flex{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-Bandera{
+    height: 200px;  
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 2px 2px 20px 2px gray;
+   
+}
+
+
+.verde{
+   
+    background-color: rgb(31, 103, 34);
+    height: 200px;
+    width: 166px;
+    position: absolute;
+}
+.blanca{
+    
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 166px;
+    left: 0%;
+    right: 0%;
+    margin: 0% auto;
+    position: absolute;
+    
+}
+.roja{
+   
+    background-color: rgb(184, 11, 11);
+    height: 200px;
+    width: 166px;
+    position: absolute;
+    right: 0%;
+   
+}
+
+img{
+    position: absolute;
+    height: 100px;
+    right: 0%;
+    left: 0%;
+    margin: 0% auto;
+    top: 50px;
+}
+
